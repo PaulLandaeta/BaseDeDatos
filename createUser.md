@@ -48,6 +48,11 @@ Como vemos en el siguiente comando solo daremos los privilegios de crear y selec
 Algunas veces es necesario revocar privilegios a ciertos usuarios para ello tenemos el siguiente comando
 
 `REVOKE ALL PRIVILEGES ON * . * FROM 'nombre_usuario'@'localhost';`
+###### Mostrar Privilegios
+
+Si es necesario verificar los privilegios de un usario podemos ejecutar el siguiente comando. 
+
+`SHOW GRANTS FOR 'nombre_usuario'@'localhost';`
 
 ###### Eliminar Usuario
 
